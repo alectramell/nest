@@ -13,7 +13,7 @@ def connect(host='http://www.google.com'):
 def runTrue():
 
         from urllib.request import urlopen
-        print(urlopen('https://raw.githubusercontent.com/alectramell/beacons/master/colors.sh').read())
+        print(urlopen('https://raw.githubusercontent.com/alectramell/nest/master/data.txt').read())
 
 def runFalse():
 

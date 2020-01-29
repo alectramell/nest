@@ -2,4 +2,9 @@
 
 clear
 
-python3 nest.py | sed 's/\\n//g;s/b//g'
+getNest() {
+
+	python3 nest.py | sed 's/\\n//g;s/b//g'
+}
+
+clear
